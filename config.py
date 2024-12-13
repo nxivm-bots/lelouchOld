@@ -5,14 +5,14 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7572910460:AAG_FD71TnCFSWIIfZK620JNVDCEwHNQ6nc")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7506878890:AAGcZSLuPNhk60_dHBVzgs1OoXFGnax2O2M")
 API_ID = int(os.environ.get("API_ID", "29872536"))
 API_HASH = os.environ.get("API_HASH", "65e1f714a47c0879734553dc460e98d6")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "6698364560"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://kratosnigger:GuH0qHewCzuynCE4@telegram.mhwll.mongodb.net/")
-DB_NAME = os.environ.get("DB_NAME", "rias")
+DB_NAME = os.environ.get("DB_NAME", "lelouch")
 JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URL)
 
 
