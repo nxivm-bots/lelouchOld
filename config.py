@@ -17,13 +17,13 @@ JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URL)
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002484543404"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002023569912"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", " -1002355383131"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
 
 
-PORT = os.environ.get("PORT", "8040")
+PORT = os.environ.get("PORT", "9030")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
